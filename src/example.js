@@ -1,9 +1,7 @@
-// Intentional linting issues
-
-function demo( ) {
-  const unusedVar = 42
-  console.log("This will trigger a quotes rule violation")
-  console.log('This will trigger no-semi rule violation')
+// Fixed ESLint issues
+function demo() {
+  const usedVar = 42;
+  console.log('Value:', usedVar);
 }
 
-demo()
+demo();
